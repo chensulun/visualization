@@ -58,11 +58,11 @@
           />
         </template>
       </el-table-column>
-      <el-table-column prop="zsl" label="仓7">
+      <!-- <el-table-column prop="zsl" label="仓7">
         <template slot-scope="scope">
           <div v-html="createHtml(scope.row.zsl, 'zsl', 'zslMin', 'zslMax')" />
         </template>
-      </el-table-column>
+      </el-table-column> -->
       <el-table-column prop="six_S" label="粉1">
         <template slot-scope="scope">
           <div
@@ -75,6 +75,15 @@
           <div
             v-html="
               createHtml(scope.row.seven_S, 'seven_S', 'sevenMin', 'sevenMax')
+            "
+          />
+        </template>
+      </el-table-column>
+      <el-table-column prop="nine_S" label="粉3">
+        <template slot-scope="scope">
+          <div
+            v-html="
+              createHtml(scope.row.nine_S, 'nine_S', 'nine_SMin', 'nine_SMax')
             "
           />
         </template>

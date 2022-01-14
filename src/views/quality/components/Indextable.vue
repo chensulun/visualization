@@ -14,9 +14,10 @@
       <el-table-column prop="four_S" label="仓4" />
       <el-table-column prop="five_S" label="仓5" />
       <el-table-column prop="six_1_S" label="仓6" />
-      <el-table-column prop="zsl" label="仓7" />
+      <!-- <el-table-column prop="zsl" label="仓7" /> -->
       <el-table-column prop="six_S" label="粉1" />
       <el-table-column prop="seven_S" label="粉2" />
+      <el-table-column prop="nine_S" label="粉3" />
       <el-table-column prop="eight_S" label="沥青" />
       <el-table-column prop="ysb" label="油石比" />
     </el-table>

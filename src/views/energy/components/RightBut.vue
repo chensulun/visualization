@@ -55,7 +55,7 @@ export default {
             axisLine: {
               show: false
             },
-            data: ['全部', '生活', '办公']
+            data: ['全部', '水(软化)', '水(清洗)']
           },
           {
             type: 'category',
